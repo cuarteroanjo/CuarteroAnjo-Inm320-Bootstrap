@@ -1,0 +1,14 @@
+{
+  "name": "inm320-week8---10",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "anjo cuartero",
+  "license": "private",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
