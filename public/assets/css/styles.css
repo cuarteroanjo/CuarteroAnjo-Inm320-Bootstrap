@@ -1,8 +1,9 @@
 /* MULISH FONT */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
 
-p a h1 h2 h3 {
-  font-family: 'Mulish', sans-serif;
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #F7F8FC !important;
 }
 
 h1 {
@@ -13,9 +14,13 @@ a {
   text-decoration: none !important;
 }
 
-.btn-card:hover {
-  box-sizing: border-box;
-  color: #3751FF;
+.btn-card:hover div{
+  border: 1px solid #3751FF !important;
+  cursor: pointer;
+}
+
+.btn-card:hover p {
+  color: #3751FF !important;
 }
 
 .avatar {
@@ -27,6 +32,31 @@ a {
 ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
   display: flex;
   flex-direction: row;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.hover-nav:hover {
+  background-color: #3f4049;
+}
+
+.hover-nav:hover p {
+  color: #DDE2FF;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.dashboard {
+  font-size: 80%;
+  display: contents;
+}
+
+.dashboard-kit {
+  margin-left: 8px;
 }
 
 .overview {
@@ -45,6 +75,7 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
   display: flex;
   align-items: stretch;
   flex-direction: column;
+  padding: 5%;
 }
 
 .card-body {
@@ -57,6 +88,8 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
 
     
 /* On small screens, set height to 'auto' for the grid */
-@media screen and (max-width: 767px) {
-  .row.content {height: auto;} 
+@media screen and (min-width: 767px) {
+
+
+  
 } 
